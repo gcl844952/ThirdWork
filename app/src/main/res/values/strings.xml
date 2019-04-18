@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ThirdWork</string>
+    <string name="bt1">绑定Service</string>
+    <string name="bt2">解除绑定</string>
+    <string name="bt3">获取Service状态</string>
+</resources>

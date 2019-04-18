@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2b2b2b">
+
+    <!--bind按钮-->
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5pt"
+        android:layout_marginRight="5pt"
+        android:layout_marginTop="10pt"
+        android:text="@string/bt1"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="#696969"
+        android:id="@+id/bindButton"
+        android:layout_gravity="center_horizontal" />
+
+    <!--unbind按钮-->
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5pt"
+        android:layout_marginRight="5pt"
+        android:layout_marginTop="10pt"
+        android:text="@string/bt2"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="#696969"
+        android:id="@+id/unbindButton"
+        android:layout_gravity="center_horizontal" />
+
+    <!--getServiceStatus按钮-->
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5pt"
+        android:layout_marginRight="5pt"
+        android:layout_marginTop="10pt"
+        android:text="@string/bt3"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="#696969"
+        android:id="@+id/getServiceStatusButton"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
